@@ -100,6 +100,7 @@ button.signup {
 .section2 {
     display:flex;
     flex-direction: column;
+    padding-bottom: 50px;
 }
 
 .infoHeader {
@@ -112,7 +113,7 @@ button.signup {
 .infoContent {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 50px;
 }
 
 .infoCard {
@@ -135,4 +136,28 @@ button.signup {
     padding-top: 8px;
     text-align: center;
     color: #1F2937;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #E5E7EB;
+}
+
+p {
+    width: 825px;
+    text-align: start; 
+    margin: 0px;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.attribution {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+    padding-right: 75px;
 }
